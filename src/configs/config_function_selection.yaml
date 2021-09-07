@@ -1,0 +1,17 @@
+--- 
+
+# data sampling configs:
+test_set_percent: 0.2
+
+# model fitting configs:
+epoch: 200
+batch_size: 1024
+
+# prediction evaluation configs
+reconstruction_error_threshold: 2.9
+
+# running function select:
+modeling_steps:
+  train_autoencoder_model: True
+  predict_autoencoder_model: True
+  generate_predict_confusion_matrix: True
